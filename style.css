@@ -29,3 +29,7 @@ body {
   padding: 2px 8px;
   font-weight: normal;
 }
+#hero-text {
+color: linear-gradient(97deg, #DADADA 4.01%, #999 49.6%);
+}
+
