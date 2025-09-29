@@ -1,3 +1,31 @@
 body {
-    background-color: black;
+  background-color: black;
+}
+
+#contact {
+  border-radius: 200px;
+  width: 100px;
+  text-align: center;
+  color: red;
+  border: 2px solid;
+}
+
+.button-wrapper {
+  display: inline-block; /* shrink to button size */
+  padding: 1.5px; /* thickness of "border" */
+  border-radius: 24px; /* rounded corners */
+  background: linear-gradient(to left, red,black ); /* gradient or solid color */
+}
+
+.button {
+  border: none;
+  border-radius: 22px; /* slightly smaller to fit inside wrapper */
+  padding: 12px 24px;
+  background: black; /* button background */
+  font-size: 13px;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 8px;
+  font-weight: normal;
 }
