@@ -20,13 +20,12 @@ body {
 .button {
   border: none;
   border-radius: 22px; /* slightly smaller to fit inside wrapper */
-  padding: 12px 24px;
+  padding: 9px 13px;
   background: black; /* button background */
   font-size: 13px;
   color: red;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
-  padding: 2px 8px;
   font-weight: normal;
 }
 #hero-text {
