@@ -32,3 +32,19 @@ body {
 color: linear-gradient(97deg, #DADADA 4.01%, #999 49.6%);
 }
 
+
+
+.demo {
+  border: none;
+  border-radius: 22px; /* slightly smaller to fit inside wrapper */
+  padding: 9px 19px;
+  background: black; /* button background */
+  font-size: 13px;
+  color: red;
+  font-weight: normal;
+  cursor: pointer;
+  font-weight: normal;
+
+
+}
+
