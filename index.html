@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=asdf u, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js"></script>
     <title>Document</title>
   </head>
 
@@ -1162,20 +1163,9 @@
 
           <h3 class="text-white text-l font-semibold">Join to Cyber-Agency</h3>
           <div class="flex gap-2 flex-row itmes-center ">
-              <input class=" bg-zinc-900 py-2 px-3 text-white" type="email" placeholder="Enter your Email"> 
-              <button class="bg-red-900 rounded-xl px-4 py-2 text-white">Submit</button>
-          </div>
-          <div className="flex gap-4 text-white p-8 bg-gray-300  items-center justify-center">
-              <input 
-              type="email" 
-              placeholder="Enter your Email"
-              className="w-[353px] h-[51px] shrink-0 rounded-[10px] bg-white/8 text-white/63 px-4 placeholder:text-white/63 outline-none focus:ring-2 focus:ring-white/20 transition-all" 
-               />
-            
-              <button
-              className="inline-flex px-[30px] py-5 justify-center items-center gap-[10px] rounded-[10px] text-white transition-all hover:opacity-90 active:scale-95">
-              Submit
-            </button>
+              <input   id="emailInput"  class=" bg-zinc-900 rounded-lg py-2 px-3 text-white" type="email" placeholder="Enter your Email"> 
+              <a href="#"><button    id="submitBtn" class="bg-[#E0003B] opacity-90 rounded-lg px-4 py-2 text-white">Submit</button></a>
+              <script src="script.js"></script>  <!-- Here! -->
           </div>
         </div>
 
